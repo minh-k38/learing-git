@@ -1,0 +1,22 @@
+1.[khởi tạo local repository] ( chỉ nhập 1 lần duy nhất trên mỗi bộ source)
+git init .
+
+2.[add vô commit]
+git add .
+
+3.[đặt tên - commit message để chuẩn bị đẩy lên remote repository]
+git commit -m "<your message>"
+
+  [xem lại các comit cũ]
+  git log
+
+4.[kết nối giữa local repository và remote repository]  
+git remote add origin <git remote repository url>
+
+5.[đẩy code từ local repository lên git remote]
+git push -u origin master
+
+ [kiểm tra nhánh]
+ git branch
+
+6.
